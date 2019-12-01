@@ -1,4 +1,4 @@
-m2r README.md README.rst --overwrite
+#m2r README.md README.rst --overwrite
 cp -R README.rst ./docs/source
 cd ./docs
 make html

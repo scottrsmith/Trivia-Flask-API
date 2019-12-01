@@ -122,15 +122,12 @@ Play the quiz game, randomizing either all questions or within a specific catego
 \subsection{Installing Dependencies}
 \label{\detokenize{index:installing-dependencies}}
 Python 3.7
+\begin{quote}
 
-\begin{sphinxVerbatim}[commandchars=\\\{\}]
-\PYG{n}{Follow} \PYG{n}{instructions} \PYG{n}{to} \PYG{n}{install} \PYG{n}{the} \PYG{n}{latest} \PYG{n}{version} \PYG{n}{of} \PYG{n}{python} \PYG{k}{for} \PYG{n}{your} \PYG{n}{platform} \PYG{o+ow}{in} \PYG{n}{the} \PYG{n}{docs}\PYG{o}{.}
+This project uses python 3.7.
 
-\PYG{n}{https}\PYG{p}{:}\PYG{o}{/}\PYG{o}{/}\PYG{n}{docs}\PYG{o}{.}\PYG{n}{python}\PYG{o}{.}\PYG{n}{org}\PYG{o}{/}\PYG{l+m+mi}{3}\PYG{o}{/}\PYG{n}{using}\PYG{o}{/}\PYG{n}{unix}\PYG{o}{.}\PYG{n}{html}\PYG{c+c1}{\PYGZsh{}getting\PYGZhy{}and\PYGZhy{}installing\PYGZhy{}the\PYGZhy{}latest\PYGZhy{}version\PYGZhy{}of\PYGZhy{}python}
-
-\PYG{n}{PIP} \PYG{n}{Dependencies}
-\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}
-\end{sphinxVerbatim}
+To Install: \sphinxhref{https://docs.python.org/3/using/unix.html\#getting-and-installing-the-latest-version-of-python}{Python}
+\end{quote}
 
 Once you have your virtual environment setup and running, install dependencies by navigating to the root directory and running:
 
@@ -181,29 +178,17 @@ flask run
 \subsection{Opening the API Documentation}
 \label{\detokenize{index:opening-the-api-documentation}}
 Documentation is generated with Sphinx.
+\begin{quote}
 
-HTML Documentation
+From the root folder, open the index file in a browser
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
-\PYG{n}{From} \PYG{n}{the} \PYG{n}{root} \PYG{n}{folder}\PYG{p}{,} \PYG{n+nb}{open} \PYG{n}{the} \PYG{n}{index} \PYG{n}{file} \PYG{o+ow}{in} \PYG{n}{a} \PYG{n}{browser}
-
-\PYG{o}{.}\PYG{o}{.} \PYG{n}{code}\PYG{o}{\PYGZhy{}}\PYG{n}{block}\PYG{p}{:}\PYG{p}{:} \PYG{n}{bash}
-
-   \PYG{o}{.}\PYG{o}{/}\PYG{n}{docs}\PYG{o}{/}\PYG{n}{build}\PYG{o}{/}\PYG{n}{html}\PYG{o}{/}\PYG{n}{index}\PYG{o}{.}\PYG{n}{html}
-
-\PYG{n}{PDF} \PYG{n}{Documentation}
-\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}
-
-\PYG{n}{The} \PYG{n}{PDF} \PYG{n}{version} \PYG{n}{of} \PYG{n}{the} \PYG{n}{documentation} \PYG{o+ow}{is} \PYG{n}{located} \PYG{o+ow}{in} \PYG{n}{the} \PYG{n}{root} \PYG{n}{project} \PYG{n}{directory}\PYG{o}{.} \PYG{n}{Named} \PYG{n}{triciaapi}\PYG{o}{.}\PYG{n}{pdf}
-
-\PYG{n}{Generating} \PYG{n}{documentation}
-\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}\PYG{o}{\PYGZca{}}
-
-\PYG{n}{Documentation} \PYG{o+ow}{is} \PYG{n}{generated} \PYG{k}{with} \PYG{n}{Sphinx}\PYG{o}{.}
-
-\PYG{n}{Installing} \PYG{n}{Sphinx} \PYG{o+ow}{and} \PYG{n}{support} \PYG{n}{tools}
-\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}\PYG{o}{\PYGZti{}}
+./docs/build/html/index.html
 \end{sphinxVerbatim}
+
+The PDF version of the documentation is located in the root project directory. Named triciaapi.pdf
+
+Documentation is generated with Sphinx.
 
 To install Sphinx, reference the documents at \sphinxurl{https://www.sphinx-doc.org/en/master/usage/installation.html}
 
@@ -220,98 +205,110 @@ Install dependencies by navigating to the \sphinxcode{\sphinxupquote{root}} proj
 pip install m2r
 pip install recommonmark
 pip install rinohtype
-
 pip install \PYGZhy{}r requirements.txt
 \end{sphinxVerbatim}
 
-Generating the documentation
-
-\begin{sphinxVerbatim}[commandchars=\\\{\}]
 Generate the documentation with the following commands:
 
-.. code\PYGZhy{}block:: bash
-
-   \PYGZsh{} From the root project directory
-   \PYGZsh{} Convert readme to rst to be included in generated docs
-   m2r README.md README.rst \PYGZhy{}\PYGZhy{}overwrite
-   cp \PYGZhy{}R README.rst ./docs/source
-   cd ./docs
-   make html
-   \PYGZsh{} Make pdf
-   make latexpdf
-   cd ..
-   cp \PYGZhy{}R ./docs/build/latex/triviaapi.pdf .
-
-API End Points
-\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}
-
-The following APIs are available. Detailed html documentation can be found in the \PYGZsq{}docs\PYGZsq{} folder.
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} From the root project directory}
+\PYG{c+c1}{\PYGZsh{} Convert readme to rst to be included in generated docs}
+m2r README.md README.rst \PYGZhy{}\PYGZhy{}overwrite
+cp \PYGZhy{}R README.rst ./docs/source
+\PYG{n+nb}{cd} ./docs
+make html
+\PYG{c+c1}{\PYGZsh{} Make pdf}
+make latexpdf
+\PYG{n+nb}{cd} ..
+cp \PYGZhy{}R ./docs/build/latex/triviaapi.pdf .
+\end{sphinxVerbatim}
+\end{quote}
 
 
-* Create or Search Questions. This API will create a new question or search questions.
-* Retrieve Questions. This API will retrieve a page of 10 trivia questions sorted by question\PYGZus{}id.
-* Delete Question. This API will delete a question from the database.
-* Retrieve Category. This API will retrieve a list of trivia categories.
-* Retrieve Category Questions. This API will retrieve a list of questions by category Id.
-* Play Quiz. This API will play the quiz. Presenting a random, non\PYGZhy{}repeated question in the category.
+\section{API End Points}
+\label{\detokenize{index:api-end-points}}
+The following APIs are available. Detailed html documentation can be found in the ‘docs’ folder.
+\begin{itemize}
+\item {} 
+Create or Search Questions. This API will create a new question or search questions.
 
-Error Handling
-\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}
+\item {} 
+Retrieve Questions. This API will retrieve a page of 10 trivia questions sorted by question\_id.
 
+\item {} 
+Delete Question. This API will delete a question from the database.
+
+\item {} 
+Retrieve Category. This API will retrieve a list of trivia categories.
+
+\item {} 
+Retrieve Category Questions. This API will retrieve a list of questions by category Id.
+
+\item {} 
+Quiz. This API will play the quiz. Presenting a random, non-repeated question in the category.
+
+\end{itemize}
+
+
+\section{Error Handling}
+\label{\detokenize{index:error-handling}}
 Errors are returned as JSON objects in the following format:
+\begin{quote}
 
-.. code\PYGZhy{}block:: bash
-
-   \PYGZob{}
-       \PYGZdq{}success\PYGZdq{}: False,
-       \PYGZdq{}error\PYGZdq{}: 400,
-       \PYGZdq{}message\PYGZdq{}: \PYGZdq{}Bad Request\PYGZdq{}
-   \PYGZcb{}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZob{}}
+    \PYG{l+s+s2}{\PYGZdq{}success\PYGZdq{}}: False,
+    \PYG{l+s+s2}{\PYGZdq{}error\PYGZdq{}}: \PYG{l+m}{400},
+    \PYG{l+s+s2}{\PYGZdq{}message\PYGZdq{}}: \PYG{l+s+s2}{\PYGZdq{}Bad Request\PYGZdq{}}
+\PYG{o}{\PYGZcb{}}
+\end{sphinxVerbatim}
 
 The API will return three error types when requests fail:
+\begin{itemize}
+\item {} 
+400: Bad Request
+
+\item {} 
+404: Resource Not Found
+
+\item {} 
+405: Method Not Allowed
+
+\item {} 
+422: Not Processable
+
+\item {} 
+500: Internal Server Error
+
+\end{itemize}
+\end{quote}
 
 
-* 400: Bad Request
-* 404: Resource Not Found
-* 405: Method Not Allowed
-* 422: Not Processable
-* 500: Internal Server Error
-
-Testing
-\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}
-
+\section{Testing}
+\label{\detokenize{index:testing}}
 Testing is done with UnitTest
 
 From the trivia/backend folder. Run:
+\begin{quote}
 
-.. code\PYGZhy{}block:: bash
-
-   . ./test.sh
-
-Full Stack Trivia API Frontend
-\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}\PYGZhy{}
-
-Installing Dependencies
-\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}\PYGZca{}
-
-Installing Node and NPM
-\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}\PYGZti{}
-
-This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from {}`https://nodejs.com/en/download \PYGZlt{}https://nodejs.org/en/download/\PYGZgt{}{}`\PYGZus{}.
-
-Installing project dependencies
-\PYGZti{}\PYGZti{}\PYGZti{}
+\begin{sphinxVerbatim}[commandchars=\\\{\}]
+. ./test.sh
 \end{sphinxVerbatim}
+\end{quote}
+
+
+\section{Full Stack Trivia API Frontend}
+\label{\detokenize{index:full-stack-trivia-api-frontend}}
+This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from \sphinxhref{https://nodejs.org/en/download/}{https://nodejs.com/en/download}.
 
 This project uses NPM to manage software dependencies. NPM Relies on the package.json file located in the \sphinxcode{\sphinxupquote{frontend}} directory of this repository. After cloning, open your terminal and run:
+\begin{quote}
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 npm install
 \end{sphinxVerbatim}
+\end{quote}
 
-
-\section{Required Tasks}
-\label{\detokenize{index:required-tasks}}
 
 \section{Running Your Frontend in Dev Mode}
 \label{\detokenize{index:running-your-frontend-in-dev-mode}}
