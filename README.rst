@@ -24,15 +24,13 @@ Installing Dependencies
 
 Python 3.7
 
-.. code-block::
 
+   This project uses python 3.7.
 
-   Follow instructions to install the latest version of python for your platform in the docs.
-
-   https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python
+   To Install: `Python <https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python>`_
 
    PIP Dependencies
-   ~~~~~~
+   ~~~~~~~~~~~~~~~~
 
 Once you have your virtual environment setup and running, install dependencies by navigating to the root directory and running:
 
@@ -83,9 +81,8 @@ Opening the API Documentation
 
 Documentation is generated with Sphinx.
 
-HTML Documentation
-
-.. code-block::
+   HTML Documentation
+   ~~~~~~~~~~~~~~~~~~
 
 
    From the root folder, open the index file in a browser
@@ -105,31 +102,29 @@ HTML Documentation
    Documentation is generated with Sphinx.
 
    Installing Sphinx and support tools
-   ~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To install Sphinx, reference the documents at https://www.sphinx-doc.org/en/master/usage/installation.html
+   To install Sphinx, reference the documents at https://www.sphinx-doc.org/en/master/usage/installation.html
 
-For example:
+   For example:
 
-.. code-block:: bash
+   .. code-block:: bash
 
-    pip install -U sphinx
+	    pip install -U sphinx
 
-Install dependencies by navigating to the ``root`` project directory and running:
+   Install dependencies by navigating to the ``root`` project directory and running:
 
-.. code-block:: bash
+   .. code-block:: bash
 
-   cd docs
-   pip install m2r
-   pip install recommonmark 
-   pip install rinohtype
+	    cd docs
+	    pip install m2r
+	    pip install recommonmark
+	    pip install rinohtype
+	    pip install -r requirements.txt
 
-   pip install -r requirements.txt
 
-Generating the documentation
-
-.. code-block::
-
+   Generating the documentation
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    Generate the documentation with the following commands:
 
@@ -146,23 +141,23 @@ Generating the documentation
       cd ..
       cp -R ./docs/build/latex/triviaapi.pdf .
 
-   API End Points
-   --------------
 
-   The following APIs are available. Detailed html documentation can be found in the 'docs' folder.
+API End Points
+--------------
 
+The following APIs are available. Detailed html documentation can be found in the 'docs' folder.
 
-   * Create or Search Questions. This API will create a new question or search questions.
-   * Retrieve Questions. This API will retrieve a page of 10 trivia questions sorted by question_id. 
-   * Delete Question. This API will delete a question from the database.
-   * Retrieve Category. This API will retrieve a list of trivia categories.
-   * Retrieve Category Questions. This API will retrieve a list of questions by category Id.
-   * Play Quiz. This API will play the quiz. Presenting a random, non-repeated question in the category.
+* Create or Search Questions. This API will create a new question or search questions.
+* Retrieve Questions. This API will retrieve a page of 10 trivia questions sorted by question_id. 
+* Delete Question. This API will delete a question from the database.
+* Retrieve Category. This API will retrieve a list of trivia categories.
+* Retrieve Category Questions. This API will retrieve a list of questions by category Id.
+* Quiz. This API will play the quiz. Presenting a random, non-repeated question in the category.
 
-   Error Handling
-   --------------
+Error Handling
+--------------
 
-   Errors are returned as JSON objects in the following format:
+Errors are returned as JSON objects in the following format:
 
    .. code-block:: bash
 
@@ -181,39 +176,34 @@ Generating the documentation
    * 422: Not Processable 
    * 500: Internal Server Error
 
-   Testing
-   -------
+Testing
+-------
 
-   Testing is done with UnitTest
+Testing is done with UnitTest
 
-   From the trivia/backend folder. Run:
+From the trivia/backend folder. Run:
 
    .. code-block:: bash
 
       . ./test.sh
 
-   Full Stack Trivia API Frontend
-   ------------------------------
+Full Stack Trivia API Frontend
+------------------------------
 
-   Installing Dependencies
-   ^^^^^^^^^^^^^^^^^^^^^^^
+Installing Node and NPM
+~~~~~~~~~~~~~~~~~~~~~~~
 
-   Installing Node and NPM
-   ~~~~~~~~~~~~~~~~~~~~~~~
+This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from `https://nodejs.com/en/download <https://nodejs.org/en/download/>`_.
 
-   This project depends on Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from `https://nodejs.com/en/download <https://nodejs.org/en/download/>`_.
-
-   Installing project dependencies
-   ~~~
+Installing project dependencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This project uses NPM to manage software dependencies. NPM Relies on the package.json file located in the ``frontend`` directory of this repository. After cloning, open your terminal and run:
 
-.. code-block:: bash
+   .. code-block:: bash
 
-   npm install
+      npm install
 
-Required Tasks
---------------
 
 Running Your Frontend in Dev Mode
 ---------------------------------
