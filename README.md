@@ -14,11 +14,11 @@ The application:
 
 ### Installing Dependencies
 
-#### Python 3.7
+#### Python 3.7 ####
 
-Follow instructions to install the latest version of python for your platform in the docs.
+This project uses python 3.7.
 
-https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python
+To Install: [Python](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
 
 
 #### PIP Dependencies
@@ -68,6 +68,7 @@ From the root folder, open the index file in a browser
 ```bash
 ./docs/build/html/index.html
 ```
+
 #### PDF Documentation
 
 The PDF version of the documentation is located in the root project directory. Named triciaapi.pdf
@@ -91,9 +92,8 @@ Install dependencies by navigating to the `root` project directory and running:
 ```bash
 cd docs
 pip install m2r
-pip install recommonmark 
+pip install recommonmark
 pip install rinohtype
-
 pip install -r requirements.txt
 ```
 
