@@ -1,0 +1,22 @@
+\indexentry{controller (module)@\spxentry{controller}\spxextra{module}|hyperpage}{5}
+\indexentry{create\_or\_search\_question() (in module controller)@\spxentry{create\_or\_search\_question()}\spxextra{in module controller}|hyperpage}{5}
+\indexentry{retrieve\_questions() (in module controller)@\spxentry{retrieve\_questions()}\spxextra{in module controller}|hyperpage}{6}
+\indexentry{delete\_question() (in module controller)@\spxentry{delete\_question()}\spxextra{in module controller}|hyperpage}{7}
+\indexentry{retrieve\_category() (in module controller)@\spxentry{retrieve\_category()}\spxextra{in module controller}|hyperpage}{8}
+\indexentry{retrieve\_category\_questions() (in module controller)@\spxentry{retrieve\_category\_questions()}\spxextra{in module controller}|hyperpage}{8}
+\indexentry{quizzes() (in module controller)@\spxentry{quizzes()}\spxextra{in module controller}|hyperpage}{9}
+\indexentry{models (module)@\spxentry{models}\spxextra{module}|hyperpage}{11}
+\indexentry{Question (class in models)@\spxentry{Question}\spxextra{class in models}|hyperpage}{11}
+\indexentry{id (models.Question attribute)@\spxentry{id}\spxextra{models.Question attribute}|hyperpage}{11}
+\indexentry{question (models.Question attribute)@\spxentry{question}\spxextra{models.Question attribute}|hyperpage}{11}
+\indexentry{answer (models.Question attribute)@\spxentry{answer}\spxextra{models.Question attribute}|hyperpage}{11}
+\indexentry{category (models.Question attribute)@\spxentry{category}\spxextra{models.Question attribute}|hyperpage}{11}
+\indexentry{difficulty (models.Question attribute)@\spxentry{difficulty}\spxextra{models.Question attribute}|hyperpage}{11}
+\indexentry{insert() (models.Question method)@\spxentry{insert()}\spxextra{models.Question method}|hyperpage}{11}
+\indexentry{update() (models.Question method)@\spxentry{update()}\spxextra{models.Question method}|hyperpage}{11}
+\indexentry{delete() (models.Question method)@\spxentry{delete()}\spxextra{models.Question method}|hyperpage}{11}
+\indexentry{format() (models.Question method)@\spxentry{format()}\spxextra{models.Question method}|hyperpage}{11}
+\indexentry{Category (class in models)@\spxentry{Category}\spxextra{class in models}|hyperpage}{11}
+\indexentry{id (models.Category attribute)@\spxentry{id}\spxextra{models.Category attribute}|hyperpage}{11}
+\indexentry{type (models.Category attribute)@\spxentry{type}\spxextra{models.Category attribute}|hyperpage}{11}
+\indexentry{format() (models.Category method)@\spxentry{format()}\spxextra{models.Category method}|hyperpage}{11}

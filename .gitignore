@@ -1,0 +1,7 @@
+# Program files
+__pycache__
+node_modules
+
+
+# OS files 
+.DS_Store
