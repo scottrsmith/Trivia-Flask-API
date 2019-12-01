@@ -56,10 +56,10 @@ export FLASK_ENV=development
 flask run
 ```
 
-
 ## Documentation
 
 ### Opening the API Documentation
+
 Documentation is generated with Sphinx.
 
 #### HTML Documentation
