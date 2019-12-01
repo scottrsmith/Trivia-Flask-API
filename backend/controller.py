@@ -23,6 +23,7 @@ import os
 from flask import Flask, request, abort, jsonify, Blueprint
 from flask_sqlalchemy import SQLAlchemy
 import random
+from werkzeug.exceptions import NotFound
 
 from models import setup_db, Question, Category
 
@@ -74,9 +75,7 @@ trivia_api = Blueprint('trivia_api', __name__)
 # ----------------------------------------------------------------------------#
 #  Create or Search questions
 # ----------------------------------------------------------------------------#
-trivia_api.route('/questions', methods=['POST'])
-
-
+@trivia_api.route('/questions', methods=['POST'])
 def create_or_search_question():
     """
         **Create or Search Questions**
@@ -254,9 +253,7 @@ def retrieve_questions():
 # ----------------------------------------------------------------------------#
 #  Delete question from the database
 # ----------------------------------------------------------------------------#
-trivia_api.route('/questions/<int:question_id>', methods=['DELETE'])
-
-
+@trivia_api.route('/questions/<int:question_id>', methods=['DELETE'])
 def delete_question(question_id):
     """
         **Delete a Question from the database**
@@ -299,8 +296,10 @@ def delete_question(question_id):
             'success': True,
             'deleted': question_id
         })
+    except NotFound:
+        abort(404)
 
-    except Exception:
+    except Exception as e:
         abort(422)
 
 
