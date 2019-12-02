@@ -1,7 +1,7 @@
 """
 **Introduction**
 
-The Trivia app includes two sql Alchemy classes used manage the trivia
+The Trivia app includes 2 sql Alchemy classes used manage the trivia
 questions and categories.
 
 - Questions: List of questions and anssers
